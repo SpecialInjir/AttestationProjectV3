@@ -9,7 +9,7 @@ namespace FirstTask.Stations
     internal class DockStation3G : DockStation
     {
         /// <inheritdoc />
-        public override void Register(ICallable phone)
+        internal override void Register(ICallable phone)
         {
             if (phone is Phone3G)
             {

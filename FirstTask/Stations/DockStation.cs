@@ -16,7 +16,7 @@ namespace FirstTask.Stations
         /// Регистрирует телефон на станции.
         /// </summary>
         /// <param name="phone">Телефон для регистрации.</param>
-        public virtual void Register(ICallable phone)
+        internal virtual void Register(ICallable phone)
         {
             if (!Phones.Contains(phone))
             {

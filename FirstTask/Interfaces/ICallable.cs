@@ -8,6 +8,6 @@
         /// <summary>
         /// Событие вызова.
         /// </summary>
-        event EventHandler Called;
+        internal event EventHandler Called;
     }
 }

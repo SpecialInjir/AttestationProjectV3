@@ -5,7 +5,7 @@ namespace ThirdTask.Services
     /// <summary>
     /// Класс для предоставления тестовых данных.
     /// </summary>
-    internal class TestDataProvider
+    internal static class TestDataProvider
     {
         internal static IEnumerable<Product> GetTestProducts()
         {
